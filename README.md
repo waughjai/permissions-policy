@@ -23,7 +23,13 @@ Call “createPolicies” to return header string rather than setting header, wh
         'fullscreen' => '*'
     ]);
 
-    /* Will set header 'permissions-policy: permissions-policy: accelerometer=self, autoplay=(), camera=(self), document-domain=(), encrypted-media=(), fullscreen=*, geolocation=(self "https://www.jaimeson-waugh.com"), gyroscope=*, magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=(), xr-spatial-tracking=()' */
+    /*
+        Will set header 'permissions-policy: permissions-policy: accelerometer=self,
+        autoplay=(), camera=(self), document-domain=(), encrypted-media=(),
+        fullscreen=*, geolocation=(self "https://www.jaimeson-waugh.com"),
+        gyroscope=*, magnetometer=(), microphone=(), midi=(), payment=(),
+        picture-in-picture=(), sync-xhr=(), usb=(), xr-spatial-tracking=()'
+    */
 
 ## Changelog
 
